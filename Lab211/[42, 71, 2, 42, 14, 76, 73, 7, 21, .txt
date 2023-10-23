@@ -1,0 +1,12 @@
+[42, 71, 2, 42, 14, 76, 73, 7, 21, 56]
+
+[2] [42,71,42]   14   [76.73.21.56] [7]
+
+[2,7]            14 [76.73.21.56,42,71,42] 
+
+trả lời:
+Đệ quy trong các thuật toán là một kỹ thuật lập trình cho phép một hàm gọi chính nó để giải quyết một vấn đề. Kỹ thuật này thường được sử dụng để giải quyết các bài toán dạng đệ quy hoặc để triển khai các thuật toán phức tạp. 
+ Một số tác dụng của đệ quy trong các thuật toán bao gồm: 
+ 1. Giải quyết các bài toán đệ quy
+ 2. Triển khai các thuật toán phức tạp
+ 3. Tăng tính đọc hiểu và khả năng bảo trì

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="InsertionSort">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/InsertionSort.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

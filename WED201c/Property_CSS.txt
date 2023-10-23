@@ -1,0 +1,21 @@
+color: Định nghĩa màu của văn bản.
+font-size: Định nghĩa kích thước của văn bản.
+font-family: Định nghĩa phông chữ của văn bản.
+font-weight: Định nghĩa độ đậm của văn bản.
+text-align: Định nghĩa cách văn bản được căn chỉnh trong một phần tử.
+text-decoration: Định nghĩa cách văn bản được trang trí, chẳng hạn như gạch chân hoặc gạch ngang.
+background-color: Định nghĩa màu nền của một phần tử.
+background-image: Định nghĩa hình ảnh nền của một phần tử.
+background-repeat: Định nghĩa cách hình ảnh nền được lặp lại.
+background-position: Định nghĩa vị trí của hình ảnh nền.
+width: Định nghĩa chiều rộng của một phần tử.
+height: Định nghĩa chiều cao của một phần tử.
+margin: Định nghĩa khoảng cách giữa một phần tử và các phần tử xung quanh nó.
+padding: Định nghĩa khoảng cách giữa nội dung của một phần tử và các cạnh của nó.
+border: Định nghĩa đường viền của một phần tử.
+border-radius: Định nghĩa độ cong của các góc của một phần tử.
+display: Định nghĩa cách một phần tử được hiển thị.
+float: Định nghĩa cách một phần tử được trôi nổi trên các phần tử khác.
+clear: Định nghĩa cách các phần tử khác được sắp xếp xung quanh một phần tử đang trôi nổi.
+position: Định nghĩa vị trí của một phần tử trong trang web.
+z-index: Định nghĩa thứ tự của các phần tử trong trang web.

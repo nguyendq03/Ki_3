@@ -1,0 +1,51 @@
+ -Hàm LEFT trích xuất một số lượng ký tự cố định từ đầu chuỗi.
+SELECT LEFT('Hello World', 5);
+-Hàm RIGHT trích xuất một số lượng ký tự cố định từ cuôi chuỗi.
+SELECT RIGHT('Hello World', 5);
+-LEN: Hàm LEN trả về độ dài của một chuỗi (số ký tự).
+SELECT LEN('Hello World');
+-Hàm TRIM loại bỏ các khoảng trắng không cần thiết ở đầu và cuối chuỗi.
+SELECT TRIM('   Hello World   ');
+-Hàm SUBSTRING trích xuất một phần của chuỗi dựa trên vị trí bắt đầu và độ dài cần trích xuất.
+SELECT SUBSTRING('Hello World', 7, 5);
+-Hàm MAX trả về giá trị lớn nhất trong một tập hợp các giá trị.
+SELECT MAX(salary) FROM employees;
+-Hàm MIN trả về giá trị nhỏ nhất trong một tập hợp các giá trị.
+SELECT MIN(salary) FROM employees;
+-Hàm SUM tính tổng các giá trị trong một cột số.
+SELECT SUM(sales) FROM orders;
+
+-Hàm AVERAGE (hoặc AVG) tính giá trị trung bình của một tập hợp các giá trị số.
+SELECT AVG(score) FROM students;
+-Hàm COUNT đếm số lượng dòng trong một tập hợp hoặc số lượng giá trị không NULL trong một cột.
+SELECT COUNT(*) FROM customers;
+- Hàm ROUND làm tròn một giá trị số đến một số chữ số thập phân xác định.SELECT ROUND(price, 2) FROM products;
+-Hàm RANK xếp hạng các giá trị dựa trên thứ tự.
+SELECT RANK() OVER (ORDER BY column_name [ASC|DESC]) AS ranking
+FROM table_name;
+- Hàm GETDATE() trả về ngày và giờ hiện tại của hệ thống.
+SELECT GETDATE();
+Result:2023-06-12 09:54:12.003
+-Hàm DATEADD() được sử dụng để thêm hoặc trừ một khoảng thời gian từ một ngày cụ thể.
+SELECT DATEADD(year, 1, '2017/08/25') AS DateAdd;
+Result:2016-08-25 00:00:00.000
+-Hàm DATEDIFF() Trả về sự khác biệt giữa hai giá trị ngày, tính bằng năm.
+SELECT DATEDIFF(year, '2017/08/25', '2011/08/25') AS DateDiff;
+Result:-6
+-Hàm DAY() trả về ngày trong tháng từ một ngày cụ thể.
+SELECT DAY('2017/08/25') 
+Result:25
+-Hàm MONTH() trả về tháng từ một ngày cụ thể.
+SELECT MONTH('2017/08/25')
+Result:8
+-Hàm YEAR() trả về năm từ một ngày cụ thể.
+SELECT YEAR('2017/08/25')
+Result: 2017
+-Hàm CONVERT() chuyển đổi một giá trị (thuộc bất kỳ loại nào) thành một kiểu dữ liệu được chỉ định.
+SELECT CONVERT(int, 25.65);
+Result: 25
+-Hàm ISNUMERIC() kiểm tra xem một biểu thức có phải là số hay không.
+Note: Hàm này trả về 1 nếu biểu thức là số, ngược lại trả về 0.
+SELECT ISNUMERIC(4567);
+Result: 1
+

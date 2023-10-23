@@ -1,0 +1,77 @@
+-Các thuộc tính trong CSS
+Thuộc tính	Mô tả
+color	Đặt màu của phần tử.
+font-size	Đặt kích thước phông chữ của phần tử.
+font-family	Đặt họ phông chữ của phần tử.
+font-weight	Đặt độ dày của phông chữ của phần tử.
+font-style	Đặt kiểu của phông chữ của phần tử.
+background-color	Đặt màu nền của phần tử.
+background-image	Đặt hình ảnh nền của phần tử.
+background-repeat	Đặt cách lặp lại hình ảnh nền của phần tử.
+background-position	Đặt vị trí của hình ảnh nền của phần tử.
+width	Đặt chiều rộng của phần tử.
+height	Đặt chiều cao của phần tử.
+margin	Đặt khoảng cách từ phần tử đến các phần tử xung quanh.
+padding	Đặt khoảng cách giữa nội dung của phần tử và ranh giới của phần tử.
+border	Đặt đường viền của phần tử.
+border-width	Đặt độ rộng của đường viền của phần tử.
+border-style	Đặt kiểu của đường viền của phần tử.
+border-color	Đặt màu của đường viền của phần tử.
+-Các selector trong CSS
+
+Selector	   Ví dụ	                         Mô tả
+.class	.intro	                 Chọn tất cả các thẻ có class="intro"
+.class1.class2	 .name1.name2	 Chọn tất cả các thẻ có cả name1 và name2 được đặt trong thuộc tính class của nó
+.class1 .class2	 .name1 .name2	 Chọn tất cả các thẻ có class="name2" là con của một phần tử có class="name1"
+*	              *	                 Chọn tất cả các thẻ
+element	             h2	                 Chọn tất cả các thẻ h2
+element.class	   div.box	         Chọn tất cả thẻ div có class="box"
+element, element   div, h2	 Chọn tất cả thẻ div và h2
+element element	   div p	 Chọn tất cả thẻ p trong thẻ div
+element > element  div > p	 Chọn tất cả thẻ p là con trực tiếp của thẻ div
+element + element  div + p	 Chọn thẻ p đứng liền kề sau thẻ div
+element ~ element  div ~ p	 Chọn tất cả thẻ p đứng sau thẻ div
+-Syntax trong CSS
+Linhks:<a href="url">link text</a>
+Image:<img src="url" alt="alternatetext">
+Variable:
+:root {
+	tên biến: attribute;
+	}
+tên thẻ {
+	   attribute: tên hàm;
+	}
+-Các pseudo class trong CSS
+:hover: Được sử dụng để chọn các phần tử khi người dùng di chuột qua chúng.
+:active: Được sử dụng để chọn các phần tử khi người dùng nhấp vào chúng.
+:focus: Được sử dụng để chọn các phần tử khi người dùng tập trung vào chúng.
+:link: Được sử dụng để chọn các liên kết chưa từng được nhấp vào.
+:visited: Được sử dụng để chọn các liên kết đã từng được nhấp vào.
+:nth-child(n): Được sử dụng để chọn các phần tử là con thứ n của phần tử cha của chúng.
+:nth-of-type(n): Được sử dụng để chọn các phần tử cùng loại thứ n của phần tử cha của chúng.
+:first-child: Được sử dụng để chọn phần tử con đầu tiên của phần tử cha của chúng.
+:last-child: Được sử dụng để chọn phần tử con cuối cùng của phần tử cha của chúng.
+:only-child: Được sử dụng để chọn phần tử con duy nhất của phần tử cha của chúng.
+:first-of-type: Được sử dụng để chọn phần tử đầu tiên cùng loại của phần tử cha của chúng.
+:last-of-type: Được sử dụng để chọn phần tử cuối cùng cùng loại của phần tử cha của chúng.
+:only-of-type: Được sử dụng để chọn phần tử duy nhất cùng loại của phần tử cha của chúng.
+:nth-last-child(n): Được sử dụng để chọn các phần tử là con thứ n từ cuối của phần tử cha của chúng.
+:nth-last-of-type(n): Được sử dụng để chọn các phần tử cùng loại thứ n từ cuối của phần tử cha của chúng.
+:empty: Được sử dụng để chọn các phần tử trống.
+:not(selector): Được sử dụng để chọn các phần tử không khớp với bộ chọn CSS được cung cấp.
+:lang(language): Được sử dụng để chọn các phần tử có ngôn ngữ cụ thể.
+-Các pseudo element trong CSS
+::before: Thêm nội dung trước phần tử HTML.
+::after: Thêm nội dung sau phần tử HTML.
+::first-letter: Thêm định dạng cho chữ cái đầu tiên của phần tử HTML.
+::first-line: Thêm định dạng cho dòng đầu tiên của phần tử HTML.
+::selection: Thêm định dạng cho văn bản được chọn bởi người dùng.
+Example: .container::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 100px;
+    background-color: yellow;
+}		
+
+

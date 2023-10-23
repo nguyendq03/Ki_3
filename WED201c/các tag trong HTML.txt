@@ -1,0 +1,51 @@
+các tag thông dụng trong HTML
+1.h1-h6- heading
+2.<p></p>- paragraph
+3.<img -image
+4.a
+5.ul,li
+6.table
+7.input
+8.button
+9.div
+
+&nbsp: thay thế phím space
+
+<b>	
+- Định dạng chữ in đậm cho văn bản.
+
+<i>	
+- Định dạng chữ in nghiêng cho văn bản.
+
+<u>	
+- Tạo một cái đường kẻ ngang nằm dưới chân văn bản.
+
+<s>	
+- Tạo một cái đường kẻ ngang nằm giữa văn bản.
+
+<big>	
+- Định dạng chữ to hơn so với văn bản bình thường.
+
+<small>	
+- Định dạng chữ nhỏ hơn so với văn bản bình thường.
+
+<sup>	
+- Định dạng chữ nhỏ & nằm ở khoảng nửa trên so với văn bản bình thường.
+
+<sub>	
+- Định dạng chữ nhỏ & nằm ở khoảng nửa dưới so với văn bản bình thường.
+
+<mark>	
+- Đánh dấu màu nền nổi bật cho văn bản.
+
+<pre>	
+- Giữ nguyên định dạng cho văn bản (giống như lúc soạn thảo)
+
+<hr>	
+- Tạo một cái đường kẻ ngang ngăn cách nội dung phía trên và nội dung phía dưới.
+
+<br>	
+- Tạo một dấu ngắt xuống dòng.
+
+<bdo>	
+- Đảo ngược thứ tự xuất hiện của các ký tự.

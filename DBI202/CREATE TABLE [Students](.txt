@@ -1,0 +1,19 @@
+CREATE TABLE [Students](
+	[StudentID] [int] NOT NULL,
+	[Name] [nvarchar](50) NOT NULL,
+	[Gender] [char](1) NOT NULL,
+	[Address] [nvarchar](200) NOT NULL,
+ CONSTRAINT [PK_Students] PRIMARY KEY ([StudentID])
+ );
+
+ CREATE TABLE [Teachers](
+	[TeacherID] [int] NOT NULL,
+	[Name] [nvarchar](50) NOT NULL,
+	[Gender] [char](1) NOT NULL,
+	[Address] [nvarchar](200) NOT NULL,
+ CONSTRAINT [PK_Teachers] PRIMARY KEY([TeacherID])
+ );
+
+CREATE TABLE [Classes](
+	[ClassID] [int] NOT NULL,
+	[TeacherID] [int] NOT NULL

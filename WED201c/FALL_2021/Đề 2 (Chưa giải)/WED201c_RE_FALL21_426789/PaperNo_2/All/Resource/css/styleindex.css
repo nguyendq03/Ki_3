@@ -1,0 +1,129 @@
+/*header*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 30px;
+    
+}
+.header p {
+    font-size: 40px;
+    font-weight: bolder;
+    color: green;
+    
+}
+.header__logo img {
+    border-radius:50% ;
+    border: solid 2px green;
+    width: 50%;
+    text-align: center;
+}
+/*banner*/
+.banner img {
+    width: 100%;
+    
+}
+/*meaning*/
+.highlight {
+    display: flex;
+}
+.highlight__image {
+    width: 30%;
+}
+.highlight__image img {
+    width: 100%;
+}
+.highlight__content {
+    padding-left: 20px;
+}
+.highlight__content h2 {
+    color: rgb(242, 101, 125);
+    
+}
+.highlight__content p {
+    font-weight: bold;
+    font-size: 15px;
+}
+.highlight__content p:nth-child(5){
+    color: rgb(242, 101, 125);
+}
+.highlight__content li {
+    font-family: Ephesis;
+    font-weight: bold;
+    color: blue;
+    font-size: 20px;
+}
+/*footer*/
+.footer{
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 18px;
+    margin: 10px 0;
+
+}
+/*menu*/
+.menu {
+    background-color: green;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0;
+    margin-bottom: 0;
+    
+}
+.navbar__link {
+    
+    padding: 0 34px;
+}
+.navbar__link a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+/*seller*/
+.seller{
+    margin-bottom: 40px;
+}
+.seller__title{
+    text-align: center;
+    color: green;
+    font-weight: 700;
+}
+.seller__list{
+    display: flex;
+    justify-content:space-around;
+    margin: 0 24px;
+}
+.seller__list__item{
+    text-align:center;
+    border: 4px solid grey;
+    max-width: 20%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.seller__list__item__details{
+    margin: 10px; 
+}
+.seller__list__item__details img{
+    width: 100%;
+}
+.seller__list__item__details h3{
+    color: green;
+    font-weight: 600;
+}
+.seller__list__item__details p{
+    color: red;
+}
+.seller__list__item__details div{
+    color:white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 4px;
+    width: fit-content;
+    margin: auto;
+    cursor: pointer;
+}

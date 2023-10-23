@@ -1,0 +1,135 @@
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.width13 {
+  width: 1/3;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+  list-style: none;
+}
+
+.header__logo img{
+  width: 35px;
+}
+
+.header__form button{
+  background-color: #333;
+  color: #fff;
+}
+
+/* Banner */ 
+.banner {
+  margin: 0;
+}
+
+.banner img{
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+/* Container */
+.container {
+  display: flex;
+  margin-top: -4px;
+}
+
+/* List Product */
+.list-product {
+  background-color: #ddd;
+  width: 25%;
+}
+
+.list-title {
+  background-color: rgb(255, 115, 0);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+/* Sale Statistic */
+.sale-statistic {
+  flex: 1;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sale-statistic h1 {
+  color: rgb(34, 159, 159);
+}
+
+.iphone {
+  display: flex;
+  border: 2px solid #ddd;
+  border-bottom: 4px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.iphone img {
+  height: 280px;
+  width: fit-content;
+}
+
+.iphone__info {
+  margin-left: 10px;
+}
+
+/* Accessories */
+.list-item {
+  display: flex;
+}
+
+.item {
+  padding: 0px;
+  border: 2px solid #ddd;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 1px 1px #ddd;
+}
+
+.item img {
+  width: 100%;
+  height: fit-content;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+.footer p {
+  margin-top: 0;
+}
+
+.footer h5 {
+  margin-bottom: 0;
+}

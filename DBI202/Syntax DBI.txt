@@ -1,0 +1,49 @@
+PK:
+CREATE TABLE table_name
+( 
+  column1 datatypy PRIMARY KEY ,
+  column2 datatype ,
+  ...
+)
+
+Set name for PK:
+CREATE TABLE table_name
+( 
+  column1 datatype ,
+  column2 datatype ,
+  ...
+  CONSTRAINT constraint_name PRIMARY KEY (column1, column2, ... column_n)
+)
+
+FK:
+CREATE TABLE child_table
+(
+  column1 datatype ,
+  column2 datatype ,
+  ...
+
+  CONSTRAINT fk_name( đặt tên cho khóa  phụ)
+    FOREIGN KEY (child_col1, child_col2, ... child_col_n)
+    REFERENCES parent_table (parent_col1, parent_col2, ... parent_col_n)  
+);
+-Đặt FK ngoài table
+ALTER TABLE table_name1
+ADD CONSTRAINT column1 FOREIGN KEY (column)
+REFERENCES table_name2(column2)
+
+DISTINCT:
+SELECT DISTINCT expressions
+FROM tables
+WHERE conditions;
+
+HAVING:
+
+GROUP BY:
+
+UPDATE:
+UPDATE table1
+SET table1.column = table2.expression1
+FROM table1
+INNER JOIN table2
+ON (table1.column1 = table2.column1)
+[WHERE conditions];

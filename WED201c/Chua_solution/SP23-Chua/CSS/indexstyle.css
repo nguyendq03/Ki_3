@@ -1,0 +1,143 @@
+a {
+  text-decoration: none;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header__logo img {
+  width: 120px;
+}
+
+.menu__content {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.menu__content li {
+  padding: 22px;
+  font-size: 22px;
+}
+
+.menu__content li a {
+  color: rgb(60, 165, 241);
+}
+
+.form__submit {
+  background-color: #333;
+  color: #fff;
+}
+
+/* banner */
+.banner {
+  display: flex;
+}
+
+.banner img {
+  width: 50%;
+}
+
+/* content */
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  color: rgb(60, 165, 241);
+}
+
+.content p {
+  text-align: left;
+  color: orange;
+}
+
+/* form */
+.form {
+  padding: 15px;
+  border: 1px solid rgb(18, 164, 164);
+  width: calc(100%/3);
+  margin-left: calc(50vw - 15%);
+  text-align: center;
+}
+
+.form__title {
+  background-color: rgb(18, 164, 164);
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form__box {
+  padding: 10px;
+  background-color: #ddd;
+}
+
+.form__box input, select {
+  padding: 7px;
+}
+
+.box__item {
+  display: flex;
+  padding: 5px;
+}
+
+.item__label {
+  width: 150px;
+  text-align: left;
+}
+
+.box__select select {
+  width: 180px;
+  margin-right: 60px;
+}
+
+.price {
+  color: orangered;
+  text-align: right;
+}
+
+.button__submit {
+  background-color: orangered;
+  margin-top: 10px;
+  border: 0;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: rgb(60, 165, 241);
+  margin-top: 20px;
+  color: #fff;
+}
+
+.footer h5 {
+  width: 100%;
+  text-align: center;
+}
+
+/* js  */
+.display-none {
+  display: none;
+}
+
+.amount {
+  background-color: green;
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}

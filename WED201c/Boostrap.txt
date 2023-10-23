@@ -1,0 +1,136 @@
+thuộc tính Bootstrap của Container, Column, Row, Màu sắc, Table, Form, Button, Alert, Card, Modal, Navbar:
+
+Container:
+width: Định nghĩa chiều rộng của Container.
+max-width: Định nghĩa chiều rộng tối đa của Container.
+fluid: Định nghĩa Container có thể thay đổi kích thước theo kích thước của màn hình.
+Column:
+width: Định nghĩa chiều rộng của Column.
+offset: Định nghĩa khoảng cách giữa Column và Column bên cạnh nó.
+order: Định nghĩa thứ tự hiển thị của Column.
+Row:
+align-items: Định nghĩa cách các phần tử trong Row được căn chỉnh theo trục thứ cấp.
+justify-content: Định nghĩa cách các phần tử trong Row được căn chỉnh theo trục chính.
+Color:
+primary: Màu chính của Bootstrap.
+secondary: Màu phụ của Bootstrap.
+success: Màu thành công của Bootstrap.
+danger: Màu nguy hiểm của Bootstrap.
+warning: Màu cảnh báo của Bootstrap.
+info: Màu thông tin của Bootstrap.
+light: Màu sáng của Bootstrap.
+dark: Màu tối của Bootstrap.
+Table:
+thead: Định nghĩa phần đầu của bảng.
+tbody: Định nghĩa phần thân của bảng.
+tfoot: Định nghĩa phần cuối của bảng.
+tr: Định nghĩa một hàng trong bảng.
+th: Định nghĩa một cột đầu trong bảng.
+td: Định nghĩa một cột dữ liệu trong bảng.
+Form:
+input: Định nghĩa một trường nhập liệu.
+textarea: Định nghĩa một khu vực văn bản.
+select: Định nghĩa một danh sách thả xuống.
+button: Định nghĩa một nút.
+Button:
+type: Định nghĩa loại nút.
+size: Kích thước của nút.
+color: Màu sắc của nút.
+style: Kiểu của nút.
+Alert:
+type: Loại cảnh báo.
+dismissible: Khả năng xóa cảnh báo.
+closable: Khả năng đóng cảnh báo.
+Card:
+body: Nội dung của thẻ.
+header: Tiêu đề của thẻ.
+footer: Chân của thẻ.
+img: Hình ảnh của thẻ.
+text-color: Màu sắc của văn bản trong thẻ.
+bg-color: Màu sắc nền của thẻ.
+Modal:
+title: Tiêu đề của mô-đun.
+body: Nội dung của mô-đun.
+footer: Chân của mô-đun.
+show: Hiển thị mô-đun.
+hide: Ẩn mô-đun.
+Navbar:
+brand: Thương hiệu của thanh điều hướng.
+collapse: Khả năng thu gọn thanh điều hướng.
+nav: Menu của thanh điều hướng.
+search: Thanh tìm kiếm của thanh điều hướng.
+toggler: Nút chuyển đổi thanh điều hướng.
+Tôi hy vọng điều này sẽ giúp ích!
+
+profile picture
+các class của boostrap của Container,Column,Row,Màu sắc,Table,Form,Button,Alert,Card,Modal,Navbar
+
+Dưới đây là một số class Bootstrap của Container, Column, Row, Màu sắc, Table, Form, Button, Alert, Card, Modal, Navbar:
+
+Container:
+.container: Container có chiều rộng tối đa 1200px.
+.container-fluid: Container có thể thay đổi kích thước theo kích thước của màn hình.
+Column:
+.col-*: Column có chiều rộng cố định.
+.col-sm-*: Column có chiều rộng dựa trên kích thước màn hình nhỏ.
+.col-md-*: Column có chiều rộng dựa trên kích thước màn hình trung bình.
+.col-lg-*: Column có chiều rộng dựa trên kích thước màn hình lớn.
+.col-xl-*: Column có chiều rộng dựa trên kích thước màn hình cực lớn.
+Row:
+.row: Row là một phần tử bao quanh các Column.
+Color:
+.bg-primary: Màu nền chính của Bootstrap.
+.bg-secondary: Màu nền phụ của Bootstrap.
+.bg-success: Màu nền thành công của Bootstrap.
+.bg-danger: Màu nền nguy hiểm của Bootstrap.
+.bg-warning: Màu nền cảnh báo của Bootstrap.
+.bg-info: Màu nền thông tin của Bootstrap.
+.bg-light: Màu nền sáng của Bootstrap.
+.bg-dark: Màu nền tối của Bootstrap.
+Table:
+.table: Bảng.
+.table-striped: Bảng có đường kẻ sọc.
+.table-bordered: Bảng có đường viền.
+.table-hover: Bảng có hiệu ứng hover.
+.table-condensed: Bảng có kích thước nhỏ gọn.
+Form:
+.form-control: Trường nhập liệu.
+.form-group: Nhóm trường nhập liệu.
+.form-inline: Biểu mẫu được định dạng theo hàng.
+.form-horizontal: Biểu mẫu được định dạng theo cột.
+Button:
+.btn: Nút.
+.btn-primary: Nút chính.
+.btn-secondary: Nút phụ.
+.btn-success: Nút thành công.
+.btn-danger: Nút nguy hiểm.
+.btn-warning: Nút cảnh báo.
+.btn-info: Nút thông tin.
+.btn-light: Nút sáng.
+.btn-dark: Nút tối.
+Alert:
+.alert: Cảnh báo.
+.alert-primary: Cảnh báo chính.
+.alert-secondary: Cảnh báo phụ.
+.alert-success: Cảnh báo thành công.
+.alert-danger: Cảnh báo nguy hiểm.
+.alert-warning: Cảnh báo cảnh báo.
+.alert-info: Cảnh báo thông tin.
+Card:
+.card: Thẻ.
+.card-header: Tiêu đề thẻ.
+.card-body: Nội dung thẻ.
+.card-footer: Chân thẻ.
+Modal:
+.modal: Mô-đun.
+.modal-dialog: Hộp thoại mô-đun.
+.modal-content: Nội dung mô-đun.
+.modal-header: Tiêu đề mô-đun.
+.modal-body: Nội dung mô-đun.
+.modal-footer: Chân mô-đun.
+Navbar:
+.navbar: Thanh điều hướng.
+.navbar-brand: Thương hiệu thanh điều hướng.
+.navbar-nav: Menu thanh điều hướng.
+.navbar-collapse: Thanh cuộn thanh điều hướng.
+.navbar-toggler: Nút chuyển đổi thanh điều hướng.
